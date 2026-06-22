@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'TT Norms Pro';
+  src: url('/fonts/TT%20Norms%20Pro%20Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: url('/fonts/Gilroy-Medium.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy-SemiBold';
+  src: url('/fonts/Gilroy-SemiBold.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy-RegularItalic';
+  src: url('/fonts/Gilroy-RegularItalic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy-Regular';
+  src: url('/fonts/Gilroy-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url('/fonts/Gilroy-Bold.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  /* Brand */
+  --color-wyze-purple: #4E2FD2;
+  --color-selected-border: rgba(78, 47, 210, 0.7);
+
+  /* Backgrounds */
+  --color-panel-bg: #EDF4FF;
+  --color-page-bg: #FFFFFF;
+
+  /* Text */
+  --color-obsidian: #0B0D10;
+  --color-text-dark: #1F1F1F;
+  --color-text-muted: rgba(31, 31, 31, 0.75);
+  --color-label-gray: #484848;
+  --color-subhead-gray: #A8B2BD;
+
+  /* Price */
+  --color-price-strike-card: #D8392B;
+  --color-price-active-card: #575757;
+  --color-price-strike-rev: #6F7882;
+
+  /* Accents */
+  --color-green: #0AA288;
+  --color-green-bg-faint: rgba(29, 240, 187, 0.04);
+  --color-chip-border: #CCCCCC;
+
+  /* Dividers */
+  --color-divider: #CED6DE;
+  --color-divider-step: #1F1F1F;
+
+  /* Stepper */
+  --color-btn-light-bg: #F0F4F7;
+  --color-btn-icon-dark: #525963;
+  --color-btn-icon-light: #CED6DE;
+  --color-btn-border-light: #E6EBF0;
+  --color-btn-rev-bg: #FFFFFF;
+  --color-btn-rev-icon: #575757;
+  --color-btn-disabled-bg: #F1F1F2;
+
+  /* Plan brand */
+  --color-plan-blue: #0046C7;
+  --color-plan-blue-bg: #E7EFFD;
+
+  /* Typography */
+  --font-sans: 'Manrope', system-ui, sans-serif;
+
+  /* Breakpoints — override Tailwind's default xl (80rem/1280px) to 1440px so the
+     side-by-side desktop (every `xl:` rule) starts at the 1440 Figma frame (Frame 1735),
+     leaving ~1276–1439px as the wide 5-across band (Frame 1736, ~1213 content). */
+  --breakpoint-xl: 90rem;
+}
